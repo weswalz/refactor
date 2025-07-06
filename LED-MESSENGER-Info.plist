@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>com.ledmessenger.auth</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>ledmessenger</string>
+			</array>
+		</dict>
+	</array>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+		<key>NSAllowsLocalNetworking</key>
+		<true/>
+	</dict>
+	<key>NSLocalNetworkUsageDescription</key>
+	<string>LED MESSENGER needs local network access to communicate with Resolume Arena for controlling LED displays via OSC protocol.</string>
+	<key>NSBonjourServices</key>
+	<array>
+		<string>_osc._udp</string>
+		<string>_osc._tcp</string>
+		<string>_ledmsg._tcp</string>
+	</array>
+	<key>SupabaseAnonKey</key>
+	<string>eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InlrbnpuYXloYWx4c2Vmc3Bscml3Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDkwNzM4MDksImV4cCI6MjA2NDY0OTgwOX0.y9IUM_vpoR52OwREoYZl2q1Ica9Y1uQMnrAUbs4Aijs</string>
+	<key>SupabaseURL</key>
+	<string>https://yknznayhalxsefsplriw.supabase.co</string>
+	<key>SupabaseServiceRoleKey</key>
+	<string>eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InlrbnpuYXloYWx4c2Vmc3Bscml3Iiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc0OTA3MzgwOSwiZXhwIjoyMDY0NjQ5ODA5fQ.ZnZp7QG8h5a-QZ0Kx1d-9e5BTf5g3i2tNBMqtlJNDp0</string>
+	<key>UIRequiresPersistentWiFi</key>
+	<true/>
+
+	<key>CFBundleIdentifier</key>
+	<string>com.ledmessenger.LED-MESSENGER</string>
+</dict>
+</plist>
